@@ -123,10 +123,10 @@ STATIC_URL = '/home/hillt03/hillt03.pythonanywhere.com/static/'
 # development
 #STATIC_URL = '/static/'
 
-# production
-STATIC_ROOT = '/home/hillt03/hillt03.pythonanywhere.com/static/'
-# development
-#STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+# STATIC_ROOT = '/home/hillt03/hillt03.pythonanywhere.com/static/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
 STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
