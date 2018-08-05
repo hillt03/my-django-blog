@@ -118,7 +118,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
-STATIC_URL = ' /home/hillt03/hillt03.pythonanywhere.com/static'
+STATIC_URL = ' /home/hillt03/hillt03.pythonanywhere.com/static/' # production
+#STATIC_URL = '/static/' # development
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
