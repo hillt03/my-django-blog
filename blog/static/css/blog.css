@@ -12,15 +12,19 @@ body {
     color: #fffefa;
     font-size: 36pt;
     text-decoration: none;
+
 }
 
 .content {
-    margin-left: 40px;
+    <!-- margin-left: 40px; -->
+    text-align: center;
+    margin: auto;
+    max-width: 500px;
     color: #c4dce8;
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .date {
@@ -43,7 +47,9 @@ h1, h2, h3, h4 {
 }
 
 .post {
-    margin-bottom: 70px;
+    <!--margin-bottom: 70px; -->
+    margin: auto;
+    text-align: center;
     color: #fffefa;
 }
 
