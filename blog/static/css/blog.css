@@ -1,10 +1,4 @@
-.title {
-    text-align: center;
-}
-.page-header {
-    background-color: #11d3ff;
-    padding: 20px 20px 20px 40px;
-}
+
 
 body {
     background-color: #444444;
@@ -17,10 +11,6 @@ body {
 }
 
 .content {
-    <!-- margin-left: 40px; -->
-    text-align: center;
-    margin: auto;
-    max-width: 500px;
     color: #c4dce8;
 }
 
@@ -48,12 +38,18 @@ h1, h2, h3, h4 {
 }
 
 .post {
-    <!--margin-bottom: 70px; -->
-    margin: auto;
-    text-align: center;
     color: #fffefa;
 }
 
 .post h1 a, .post h1 a:visited {
     color: #fffefa;
+}
+
+.page-header {
+    background-color: #11d3ff;
+    padding: 20px 20px 20px 20px;
+    margin-top: 0px !important;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
 }
