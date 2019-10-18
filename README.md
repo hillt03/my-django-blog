@@ -1,1 +1,1 @@
-Hosted @ http://hillt03.pythonanywhere.com/
+No longer hosting, using the host for a Flask app.
